@@ -25,15 +25,42 @@
 ---
 
 ## 🧠 Tech Stack
-| Category | Tools |
-|-----------|--------|
-| **Languages** | Python |
-| **ML / AI** | scikit-learn, XGBoost, pandas, numpy |
-| **Visualization** | matplotlib, seaborn, plotly |
-| **Automation** | joblib, datetime, os |
-| **UI / Dashboard** | Streamlit |
-| **Version Control** | Git + GitHub |
-| **(Optional)** | MLflow / Evidently AI for tracking |
+
+MLFoundry combines **machine learning automation**, **data engineering**, and **interactive visualization** — built entirely in Python.  
+Each layer of the stack is modular, making it easy to extend or integrate into production pipelines.
+
+| Layer | Purpose | Tools / Frameworks |
+|-------|----------|--------------------|
+| 🧩 **Core Language** | Foundation for the entire project | `Python 3.10+` |
+| 🤖 **Machine Learning** | Model training, evaluation, and AutoML pipeline | `scikit-learn`, `XGBoost`, `LightGBM`, `CatBoost` |
+| 🧮 **Data Processing** | Data cleaning, feature engineering, transformations | `pandas`, `numpy`, `scipy` |
+| 📊 **Visualization & Explainability** | Plotting metrics, leaderboard, feature importance | `matplotlib`, `seaborn`, `plotly`, `SHAP` *(future)* |
+| ⚙️ **Automation & Storage** | Model persistence, logs, version tracking | `joblib`, `datetime`, `os`, `pickle` |
+| 🧱 **Web Framework / UI** | Interactive user interface for predictions & retraining | `Streamlit` |
+| ☁️ **Experiment Tracking (Future)** | Track metrics, parameters, and drift | `MLflow`, `Evidently AI` |
+| 🔐 **Version Control & CI/CD** | Collaboration, deployment automation | `Git`, `GitHub`, `GitHub Actions` |
+| 🧰 **Development Environment** | Local IDE and virtual environment management | `VS Code`, `venv`, `requirements.txt` |
+
+---
+
+### 🧩 Architecture Overview
+> **Data → Model Training → Evaluation → Visualization → Deployment**
+
+```text
+Raw CSV Data
+    │
+    ├── Data Preprocessing (pandas, numpy)
+    │
+    ├── Model Training (scikit-learn, XGBoost)
+    │
+    ├── Evaluation + Leaderboard (matplotlib, plotly)
+    │
+    ├── Model Persistence (joblib)
+    │
+    ├── Dashboard Visualization (Streamlit)
+    │
+    └── Optional REST API (FastAPI)
+
 
 ---
 

@@ -1,7 +1,15 @@
-# ⚙️ MLFoundry
+<h1 align="center">⚙️ MLFoundry</h1>
 
-> **MLFoundry** is a self-evolving AutoML platform that automatically trains, evaluates, and explains multiple machine learning models.  
-> It identifies the best-performing model, tracks its versions, and provides interactive dashboards for exploration and retraining.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />
+  <img src="https://img.shields.io/badge/Framework-Streamlit-FF4B4B.svg" />
+  <img src="https://img.shields.io/badge/Library-scikit--learn-F7931E.svg" />
+  <img src="https://img.shields.io/badge/ML-XGBoost-00C7B7.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+</p>
+
+> **MLFoundry** is a self-evolving AutoML platform that automatically trains, compares, and explains multiple machine learning models.  
+> It identifies the best-performing model, visualizes performance, and enables easy retraining.
 
 ---
 
@@ -26,6 +34,14 @@
 | **UI / Dashboard** | Streamlit |
 | **Version Control** | Git + GitHub |
 | **(Optional)** | MLflow / Evidently AI for tracking |
+
+---
+
+## 🔮 Future Improvements
+- Add feature importance visualization using SHAP
+- Integrate MLflow for experiment tracking
+- Include model drift monitoring (Evidently AI)
+- Deploy live dashboard on Streamlit Cloud
 
 ---
 

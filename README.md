@@ -60,8 +60,7 @@ Raw CSV Data
     ├── Dashboard Visualization (Streamlit)
     │
     └── Optional REST API (FastAPI)
-
-
+```
 ---
 
 ## 🔮 Future Improvements
